@@ -101,7 +101,7 @@
 		addScrolling(draggedX, true, false);
 		addScrolling(draggedY, false, true);
 		
-		dragged = dragged.join(draggedX).join(draggedY);
+		dragged = dragged.concat(draggedX).concat(draggedY);
     }
 
       
